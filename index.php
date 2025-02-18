@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мій сайт</title>
+    <title>Мій сайт </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
     </main>
 
     <footer>
-        <p>© 2025 Мій сайт</p>
+        <p> 2025 Мій сайт</p>
     </footer>
 
     <script src="script.js"></script>
