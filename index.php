@@ -18,7 +18,7 @@
     </main>
 
     <footer>
-        <p> 2025 Мій сайт</p>
+        <p>1 2025 Мій сайт</p>
     </footer>
 
     <script src="script.js"></script>
