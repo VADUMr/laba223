@@ -16,7 +16,6 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE_V}}
      
           script: |
-            cd ~/vadumr
             # Якщо репозиторій уже є, оновлюємо його. Якщо ні — клонуємо
             if [ -d "laba223" ]; then
               cd laba223
