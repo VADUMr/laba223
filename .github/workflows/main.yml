@@ -16,8 +16,13 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
      
           script: |
-            cd ~vadumr
-            mkdir test 
-            cd test 
-            git clone https://github.com/VADUMr/laba223.git
+            cd ~/vadumr/test
+            # Якщо репозиторій уже є, оновлюємо його. Якщо ні — клонуємо
+            if [ -d "laba223" ]; then
+              cd laba223
+              git pull origin main
+            else
+              git clone https://github.com/VADUMr/laba223.git
+              cd laba223
+            fi
             echo 'Deployment successful to digital ocean d1' 
